@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./sass/style.css">
+        <link rel="stylesheet" href="./sass/loading.css">
+    <title>BOBBY</title>
+</head>
+<body onLoad = "loading()">
+<div class="loading-bg" id="loading">
+	<div class="loading">
+		<span1></span1>
+		<span1></span1>
+		<span1></span1>
+		<span1></span1>
+		<span1></span1>
+		<span1></span1>
+		<span1></span1>
+		<span1></span1>
+		<span1></span1>
+	</div>
+	<div>
+		<div class="text">Initializing...</div>
+	</div>
+</div>
+<div class="bg">
+    <div class="main-container" id = "main-container">
+        <div class="top-menu" id ='top-menu'>
+            <ul>
+                <li class="list-c"><i class="fa fa-times" id = "" onClick = "hamclose()"></i></li>
+                <li class="list-c"><a href="#home" onClick = "hamclose()">Home</a></li>
+                <li class="list-c"><a href="#about-1" onClick = "hamclose()">About</a></li>
+                <li class="list-c"><a href="#Skills" onClick = "hamclose()">Skills</a></li>
+                <li class="list-c"><a href="#" onClick = "hamclose()">Mailme</a></li>
+            </ul>
+        </div>
+        <div class="navbar">
+            <div class="title"><p1 data-aos="fade-right">Portfolio</p1></div>
+            <div class="ham-bg">
+                <div class="ham" data-aos="fade-left" onClick = "hamopen()">
+                    <span class="span"></span>
+                    <span class="span"></span>
+                    <span class="span"></span>
+                </div>
+            </div>
+        </div>
+        <div class="mid-cont" id="home">
+            <div class="h" data-aos="fade-right" >
+                Ôla its
+            </div>
+            <div class="n" data-aos="fade-right" >
+                BOBBY
+            </div>
+            <div class="d" data-aos="fade-right" >
+                <p4>I am a <span>UI/UX</span> designer with Crazy android <br>and webdesigns. </p4>
+            </div>
+            <div class="scrl">
+            	<span2></span2>
+            	<a href="https://instagram.com/chandrasidhardh"><button class="btn" data-aos="fade-right">Hire me</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="main-container1" id="Skills" id="main-container1" >
+        <div class="c1">
+            <div class="text" data-aos="fade-left">
+                <p>My Skills and Work
+                </p>
+            </div>
+            <div class="image-bg" id = "skill">
+                <a href="templates/skill.html"><img data-aos="fade-right" src="images/design.jpeg" alt="" class="image"></a>
+            </div>
+        </div>
+    </div>
+    <div class="main-container-s" id = "main-container-s">
+        <div class="top-menu-s" id ='top-menu-s'>
+            <ul>
+                <li class="list-c"><i class="fa fa-times" id = "-s" onClick = "hamcloses()"></i></li>
+                <li class="list-c"><a href="#home-s" onClick = "hamcloses()">Home</a></li>
+                <li class="list-c"><a href="#Skills-s" onClick = "hamcloses()">Skills</a></li>
+                <li class="list-c"><a href="#about-s" onClick = "hamcloses()">About</a></li>
+                <li class="list-c"><a href="https://instagram.com/chandrasidhardh" onClick = "hamcloses()">Mailme</a></li>
+            </ul>
+        </div>
+        <div class="navbar">
+            <div class="title"><p1 data-aos="fade-right">Portfolio</p1></div>
+            <div class="ham-bg">
+                <div class="ham" data-aos="fade-left" onClick = "hamopens()">
+                    <span class="span"></span>
+                    <span class="span"></span>
+                    <span class="span"></span>
+                </div>
+            </div>
+        </div>
+        <div class="mid-cont" id="home-s">
+            <div class="h" data-aos="fade-right" >
+                Ôla its
+            </div>
+            <div class="n" data-aos="fade-right" >
+                BOBBY
+            </div>
+            <div class="d" data-aos="fade-right" >
+                <p4>I am a <span>UI/UX</span> designer with Crazy android <br>and webdesigns. </p4>
+            </div>
+            <div class="scrl">
+            	<span2></span2>
+            	<a href="https://instagram.com/chandrasidhardh"><button class="btn" data-aos="fade-right">Hire me</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="main-container2" id="Skills-s" id="main-container2" >
+        <div class="c1">
+            <div class="text">
+                <p  data-aos="zoom-in">My Skills and Work
+                </p>
+            </div>
+            <div class="image-bg" id = "skill">
+                <a href="templates/skill.html"><img  data-aos="zoom-out" src="images/design.jpeg" alt="" class="image"></a>
+            </div>
+        </div>
+    </div>
+    <div class="main-container3" id="main-container3">
+        <div class="c1" id= "about-1">
+            <div class="text" data-aos="fade-left">
+                <p>About Me</p> 
+            </div>
+            <div class="image-bg"  id = "about">
+                <a href="templates/about.html"><img data-aos="fade-right" src="images/about.jpeg" alt="" class="image"></a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="main-container4" id="main-container4">
+        <div class="c1" id= "about-s">
+            <div class="text">
+                <p data-aos="zoom-in">About Me</p> 
+            </div>
+            <div class="image-bg"  id = "about">
+                <a href="templates/about.html"><img  data-aos="zoom-out" src="images/about.jpeg" alt="" class="image"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>   
+    AOS.init({
+      offset:120,
+      duration:900,
+      mirror: true,
+    }); 
+</script>
+<script type="text/javascript">
+	function loading(){
+		document.getElementById('loading').style.display
+		= 'none';
+	}
+</script>
+</body>
+</html>

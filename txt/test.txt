@@ -1,0 +1,178 @@
+
+// .sidebar{
+//     width:50px;
+//     height:93vh;
+//     @include flex(column);
+//     justify-content: none;
+//     align-items: none;
+//     position: fixed;
+// }
+// .navlines{
+//     width:100%;
+//     height:70%;
+//     @include flex(column);
+//     align-items: left;
+//     text-align:left;
+//     padding-left: 20px;
+//     .lines{
+//         width:15px;
+//         height:2px;
+//         border:1px solid white;
+//         // transform: rotate(45deg);
+//         background: white;
+//         margin-top: 20px;
+//         margin-right: 15px; 
+//         transition: .5s ease;
+//     }
+//     .lines:first-child{
+//         width:40px;
+//         margin-left:22px;
+
+//     }
+//     .lines-i{
+//         width:40px;
+//         height:2px;
+//         margin-left:22px;
+//     }
+//     .lines-j{
+//         width:15px;
+//         height:2px;
+//     }
+// }
+
+
+
+// p{
+//     transform: rotate(90deg);
+//     color:white;
+//     font-family: 'Poppins', sans-serif;
+//     font-size: .9rem;
+//     @include flex(row);
+//     .bt-line{
+//         position: relative;
+//         transform: rotate(45deg);
+//         width:25px;
+//         height:25px;
+//         // background-color: white;
+//         border-top: 1px solid white;
+//         border-right: 1px solid white;
+//         margin-left: 5px;
+//     }
+//     .bt-line::before{
+//         content: "";
+//         position: absolute;
+//         // background-color: green;
+//         transform: rotate(0deg);
+//         border-top: 1px solid white;
+//         border-right: 1px solid white;
+//         width:25px;
+//         height:25px;
+//         bottom:10px;
+//         left:10px;
+//     }
+//     .bt-line::after{
+//         content: "";
+//         position: absolute;
+//         // background-color: green;
+//         transform: rotate(0deg);
+//         border-top: 1px solid white;
+//         border-right: 1px solid white;
+//         width:25px;
+//         height:25px;
+//         top:10px;
+//         right:10px;
+//     }
+// }
+// .sc{
+//     @include flex(column);
+//     width:100%;
+//     height:92%;
+//     justify-content: flex-end;
+//     position: relative;
+// }
+
+
+
+    // .btn{
+    //     width:120px;
+    //     height:30px;
+    //     background:red;
+    //     color:white;
+    //     font-family: 'Poppins', sans-serif;
+    //     border:none;
+    //     outline:none;
+    //     border-radius: 4px;
+    // }
+
+
+
+    
+// .main-container2{
+//     width:100%;
+//     height:100vh;
+//     background: transparent;
+//     @include flex(column);
+//     padding-top: 50px;
+//     .c1{
+//         @include flex(row)
+//     }
+//     .text{
+//         width:45%;
+//         // background: grey;
+//         @include flex(row);
+//         justify-content: flex-end;
+//         position: absolute;
+//         left:0px;
+//         z-index: 1;
+//         p{
+//             color:white;
+//             font-size: 45px;
+//             font-family: 'Poppins';
+//             padding-bottom: 10px;
+//             letter-spacing: 1px;
+//             padding-right:60px;
+//         }
+//         p::before {
+//             content: "";
+//             display:block; 
+//             margin-left:150px;
+//             width: 50%;
+//             padding-top: 20px; 
+//             border-bottom: 2px solid red; 
+//         }
+//         p::after {
+//             content: "";
+//             display: block; 
+//             margin-right: 10px ;
+//             width: 50%;
+//             padding-top: 10px; 
+//             border-bottom: 2px solid red; 
+//         }
+//     }
+//     .image-bg{
+//         width:55%;
+//         @include flex(row);
+//         justify-content: left;
+//         // background: white;
+//         position: absolute;
+//         right:0;
+//         .image{
+//             width:450px;
+//             height:380px;
+//             border-radius: 5px;
+//         }
+//     }
+// }
+
+
+
+//toggled class
+// .about{
+//     width:100%;
+//     height:100vh;
+//     background: white;
+//     @include flex(column);
+//     z-index: 5;
+//     transition:1s ease;
+//     position: fixed;
+// }
